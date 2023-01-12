@@ -9,8 +9,7 @@ main {
 .navbar {
     display: flex;
     align-items: center;
-    
-    background: green;
+    background: red;
     color: white;
     font-family: Helvetica;
     font-weight: 300;
