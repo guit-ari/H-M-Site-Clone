@@ -1,13 +1,17 @@
-import "./Navbar.css"
+import "./Navbar.css";
+import Logo from "./Logo";
+import NavbarItem from "./NavbarItem";
+
+const itemsName = ["Contacts", "About us", "Services"];
+
 export default function Navbar() {
   return (
     <>
       <header className="navbar">
-        <div className="navbar__title navbar__item">H&M</div>
-
-        <div className="navbar__item">Contacts</div>
-        <div className="navbar__item">About us</div>
-        <div className="navbar__item">Services</div>
+        <Logo />
+        {itemsName.map((item) => {
+          return <NavbarItem e={item} />; // e è il nome della variabile che decido io come chiamare
+        })}
       </header>
     </>
   );

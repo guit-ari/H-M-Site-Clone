@@ -1,11 +1,18 @@
+import Navbar from "./Components/navbar/Navbar";
+import Pacchetto from "./Components/navbar/body/Pacchetto";
 
-import Navbar from "./Components/navbar/Navbar"
+
 function App() {
- return(
-  <>
-  <Navbar/>
-  </>
- )
+
+  const callbackFunctionFromParent=(value)=>{
+    alert(`Mi hai cliccato: ${value}`);
+  }
+  return (
+    <>
+      <Navbar />
+      <Pacchetto/>
+    </>
+  );
 }
 
 export default App;

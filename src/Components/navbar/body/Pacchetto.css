@@ -1,0 +1,12 @@
+.pacchetto{
+    background-color: rgb(221, 221, 222);
+    display: flex;
+    justify-content: center;
+
+}
+.pacchetto_item{
+    padding: 16px 16px;
+    cursor: pointer;
+    color: white;
+    
+}
