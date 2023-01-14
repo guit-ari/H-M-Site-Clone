@@ -1,0 +1,11 @@
+
+.box{
+margin-top: 60px;
+margin-left: 60px;
+margin-right: 60px;
+display: flex;
+justify-content: center;
+}
+.pic{
+    height: 300px;
+}
