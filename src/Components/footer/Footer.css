@@ -1,0 +1,12 @@
+.footer{
+    display: flex;
+    background-color: rgba(176, 176, 176, 0.386);
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 50px;
+    height: 200px;
+    justify-content: center;
+}
+.footer_item{
+    padding: 16px 16px;
+}
