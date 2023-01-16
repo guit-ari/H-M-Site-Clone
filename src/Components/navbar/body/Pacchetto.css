@@ -1,12 +1,12 @@
-.pacchetto{
-    background-color: rgb(221, 221, 222);
-    display: flex;
-    justify-content: center;
-
+.pacchetto {
+  display: flex;
+  justify-content: center;
+  background-color: rgba(176, 176, 176, 0.275);
 }
-.pacchetto_item{
-    padding: 16px 16px;
-    cursor: pointer;
-    color: white;
-
+.pacchetto_item {
+  padding: 16px 16px;
+  cursor: pointer;
+  color: rgb(255, 255, 255);
+  font-size: 17px;
+  font-family: Arial, Helvetica, sans-serif;
 }

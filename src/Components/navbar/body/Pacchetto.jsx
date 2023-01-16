@@ -1,5 +1,5 @@
 import "./Pacchetto.css";
-const items=["Uomo","Donna","Bambino"];
+const items=["Uomo","Donna","Bambino","Neonato","Beauty","Sport","Saldi"];
 export default function Pacchetto() {
     return (
         <>
