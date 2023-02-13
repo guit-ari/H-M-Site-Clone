@@ -42,6 +42,7 @@ const imageItems = [
 const buttonItems = ["button1", "button2", "button3", "button5"];
 export default function Image() {
   const [show, setShow] = useState(false);
+
   return (
     <>
       <div className="box">
@@ -50,6 +51,7 @@ export default function Image() {
             <div className="imgPlusBtn">
               <ImageItem e={itemimg} />
               <Button setShowHandler={setShow} showValue={show} />
+             
             </div>
           );
         })}
